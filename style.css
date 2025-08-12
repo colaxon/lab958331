@@ -1,21 +1,24 @@
+/* style.css */
 /* Custom styles */
+
 body {
-    background-color: #2581dd; /* สีพื้นหลังของหน้าเว็บ (light gray) */
+    background-color: #7aecb7;
+     font-family: 'Kanit', sans-serif; /* เพิ่มบรรทัดนี้ */
 }
 
 .card {
-    border-radius: 1rem; /* ทำให้มุมของกล่องโค้งมน */
-    max-width: 400px; /* กำหนดความกว้างสูงสุดของกล่อง */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กล่องดูมีมิติ */
-    background-color: #19dff9; /* สีพื้นหลังของกล่องเป็นสีขาว */
+    background-color: #C8E6C9;;
+    border-radius: 1rem;
+    max-width: 400px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .badge {
-    color: #ffffff; /* สีตัวอักษรของ badge เป็นสีขาว */
-    background-color: #6c757d; /* สีพื้นหลังของ badge เป็นสีเทา */
+    color: #4394f1; /* สีตัวอักษรของ badge เป็นสีขาว */
+    background-color: #0965b6; /* สีพื้นหลังของ badge เป็นสีเทา */
 }
 
 .btn-primary {
-    background-color: #0d6efd; /* สีพื้นหลังของปุ่ม (สีน้ำเงินของ Bootstrap) */
-    border-color: #0d6efd; /* สีขอบของปุ่ม */
+    background-color: #38A3A5;
+    border-color: #38A3A5;
 }
