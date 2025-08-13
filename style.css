@@ -3,22 +3,37 @@
 
 body {
     background-color: #7aecb7;
-     font-family: 'Kanit', sans-serif; /* เพิ่มบรรทัดนี้ */
+    font-family: 'Kanit', sans-serif;
 }
 
 .card {
-    background-color: #C8E6C9;;
+    background-color: #C8E6C9;
     border-radius: 1rem;
-    max-width: 400px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(21, 235, 117, 0.1);
 }
 
+.card p.fw-bold.text-center {
+    color: #3cb371; 
+}
+
+
 .badge {
-    color: #4394f1; /* สีตัวอักษรของ badge เป็นสีขาว */
-    background-color: #0965b6; /* สีพื้นหลังของ badge เป็นสีเทา */
+    color: #ffffff; 
+    background-color: #4fca91; 
 }
 
 .btn-primary {
-    background-color: #38A3A5;
-    border-color: #38A3A5;
+    background-color: #2e2d2dcb;
+    border-color: #05f8bb;
 }
+
+
+.card b {
+    color: #ffffff;
+}
+
+
+.card h2.fw-bold {
+    color: #3cb371;
+}   
