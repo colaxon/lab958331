@@ -1,4 +1,6 @@
-document.getElementById('viewContactBtn').addEventListener('click', function() {
-    
-    alert('napatsapon1745@gmail.com');
+const contactButton = document.getElementById('contactButton');
+
+contactButton.addEventListener('click', function(event) {
+    alert('กรุณารอสักครู่');
+    window.location.href = "Contact.html"; 
 });
